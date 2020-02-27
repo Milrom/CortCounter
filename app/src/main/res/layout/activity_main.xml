@@ -32,28 +32,31 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:gravity="center_horizontal"
-                android:text="0" />
+                android:text="0"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="38dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="plus_3_Points_A"
-                android:text="+3 POINTS" />
+                android:text="+3 POINTS"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="38dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="plus_2_Points_A"
-                android:text="+2 POINTS" />
+                android:text="+2 POINTS"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="38dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="freeThrow_A"
-                android:text="FREE THROW" />
+                android:text="FREE THROW"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
 
         </LinearLayout>
 
@@ -80,25 +83,28 @@
                 android:text="0" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="38dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="plus_3_Points_B"
-                android:text="+3 POINTS" />
+                android:text="+3 POINTS"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="38dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="plus_2_Points_B"
-                android:text="+2 POINTS" />
+                android:text="+2 POINTS"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="128dp"
+                android:layout_height="38dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="freeThrow_B"
-                android:text="FREE THROW" />
+                android:text="FREE THROW"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
 
         </LinearLayout>
     </LinearLayout>
